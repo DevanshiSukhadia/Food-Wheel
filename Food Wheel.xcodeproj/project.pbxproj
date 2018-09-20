@@ -15,6 +15,7 @@
 		B04A042A21531A9C00E50EC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B04A042821531A9C00E50EC6 /* LaunchScreen.storyboard */; };
 		B04A043521531A9C00E50EC6 /* Food_WheelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04A043421531A9C00E50EC6 /* Food_WheelTests.swift */; };
 		B04A044021531A9C00E50EC6 /* Food_WheelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04A043F21531A9C00E50EC6 /* Food_WheelUITests.swift */; };
+		B04A045221531B7700E50EC6 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B04A045121531B7700E50EC6 /* CloudKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		B04A043B21531A9C00E50EC6 /* Food WheelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Food WheelUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B04A043F21531A9C00E50EC6 /* Food_WheelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_WheelUITests.swift; sourceTree = "<group>"; };
 		B04A044121531A9C00E50EC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B04A045021531AFC00E50EC6 /* Food Wheel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Food Wheel.entitlements"; sourceTree = "<group>"; };
+		B04A045121531B7700E50EC6 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B04A045221531B7700E50EC6 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +87,7 @@
 				B04A043321531A9C00E50EC6 /* Food WheelTests */,
 				B04A043E21531A9C00E50EC6 /* Food WheelUITests */,
 				B04A041A21531A9C00E50EC6 /* Products */,
+				B04A044D21531AFC00E50EC6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +104,7 @@
 		B04A041B21531A9C00E50EC6 /* Food Wheel */ = {
 			isa = PBXGroup;
 			children = (
+				B04A045021531AFC00E50EC6 /* Food Wheel.entitlements */,
 				B04A041C21531A9C00E50EC6 /* AppDelegate.swift */,
 				B04A041E21531A9C00E50EC6 /* ViewController.swift */,
 				B04A042021531A9C00E50EC6 /* Main.storyboard */,
@@ -126,6 +132,14 @@
 				B04A044121531A9C00E50EC6 /* Info.plist */,
 			);
 			path = "Food WheelUITests";
+			sourceTree = "<group>";
+		};
+		B04A044D21531AFC00E50EC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B04A045121531B7700E50EC6 /* CloudKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +211,17 @@
 					B04A041821531A9C00E50EC6 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.WAC = {
+								enabled = 0;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 					B04A042F21531A9C00E50EC6 = {
 						CreatedOnToolsVersion = 9.2;
@@ -430,11 +455,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Food Wheel/Food Wheel.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L893F9Y43E;
+				DEVELOPMENT_TEAM = 6WA6Y7KBQJ;
 				INFOPLIST_FILE = "Food Wheel/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "devanshi.Food-Wheel";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.sjsu.devanshi.Food-Wheel";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -445,11 +471,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Food Wheel/Food Wheel.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L893F9Y43E;
+				DEVELOPMENT_TEAM = 6WA6Y7KBQJ;
 				INFOPLIST_FILE = "Food Wheel/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "devanshi.Food-Wheel";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.sjsu.devanshi.Food-Wheel";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
