@@ -8,6 +8,8 @@ target 'Food Wheel' do
 
   # Pods for Food Wheel
     pod 'Firebase/Core'
+    pod 'Firebase/Auth'
+
 
   target 'Food WheelTests' do
     inherit! :search_paths
