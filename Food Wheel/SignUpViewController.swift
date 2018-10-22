@@ -31,6 +31,16 @@ class SignUpViewController: UIViewController {
         Auth.auth().createUser(withEmail: email, password: pass) { (user, error) in
             if error == nil && user != nil {
                 print("User created!")
+                
+                let changeRequest = Auth.auth().currentUser?.createProfileChangeRequest()
+                changeRequest?.displayName = name
+                changeRequest?.commitChanges(completion: { (error) in
+                    if error == nil {
+                        print("Name Changed")
+                        
+                        
+                    }
+                })
             } else {
                 print("Error: \(error!.localizedDescription)")
             }
