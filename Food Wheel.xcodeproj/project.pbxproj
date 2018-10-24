@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6A3464F5215EC658007FF46A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A3464F4215EC658007FF46A /* GoogleService-Info.plist */; };
+		6AE2A97A217BBC3200CE75F4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE2A979217BBC3100CE75F4 /* SignUpViewController.swift */; };
 		B04A041D21531A9C00E50EC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04A041C21531A9C00E50EC6 /* AppDelegate.swift */; };
 		B04A041F21531A9C00E50EC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04A041E21531A9C00E50EC6 /* ViewController.swift */; };
 		B04A042221531A9C00E50EC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B04A042021531A9C00E50EC6 /* Main.storyboard */; };
@@ -46,6 +47,7 @@
 		2B9AB9E04F1165F5B1B07069 /* Pods_Food_Wheel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Food_Wheel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		34946E117B07AC01B2E5BEF6 /* Pods-Food Wheel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food Wheel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Food Wheel/Pods-Food Wheel.debug.xcconfig"; sourceTree = "<group>"; };
 		6A3464F4215EC658007FF46A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../var/folders/79/mzprvq357jdd8xdt3hqkf1kr0000gn/T/com.apple.iChat/Messages/Transfers/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6AE2A979217BBC3100CE75F4 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		931102A63CEF5CF4E9ED52F5 /* Pods_Food_WheelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Food_WheelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DBED91AEF1807C1537274B4 /* Pods_Food_WheelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Food_WheelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7EEAF4A3E375CCE4DBF5D41 /* Pods-Food WheelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food WheelTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Food WheelTests/Pods-Food WheelTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 				B04A042B21531A9C00E50EC6 /* Info.plist */,
 				6A3464F4215EC658007FF46A /* GoogleService-Info.plist */,
 				B04A042321531A9C00E50EC6 /* Food_Wheel.xcdatamodeld */,
+				6AE2A979217BBC3100CE75F4 /* SignUpViewController.swift */,
 			);
 			path = "Food Wheel";
 			sourceTree = "<group>";
@@ -328,15 +331,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-Food WheelUITests-checkManifestLockResult.txt",
 			);
@@ -350,15 +349,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-Food Wheel-checkManifestLockResult.txt",
 			);
@@ -372,17 +367,15 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Food Wheel/Pods-Food Wheel-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -396,15 +389,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-Food WheelTests-checkManifestLockResult.txt",
 			);
@@ -422,6 +411,7 @@
 			files = (
 				B04A041F21531A9C00E50EC6 /* ViewController.swift in Sources */,
 				B04A042521531A9C00E50EC6 /* Food_Wheel.xcdatamodeld in Sources */,
+				6AE2A97A217BBC3200CE75F4 /* SignUpViewController.swift in Sources */,
 				B04A041D21531A9C00E50EC6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
