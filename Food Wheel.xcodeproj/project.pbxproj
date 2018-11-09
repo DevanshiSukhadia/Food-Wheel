@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6A3464F5215EC658007FF46A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A3464F4215EC658007FF46A /* GoogleService-Info.plist */; };
+		6A36F5B52193750700E7DC03 /* GoogleService-Info (9).plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A36F5B42193750700E7DC03 /* GoogleService-Info (9).plist */; };
+		6AB602AA218A7E3900939457 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AB602A9218A7E3900939457 /* Assets.xcassets */; };
+		6AD50B18218ED096006DB781 /* Food_Wheel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6AD50B16218ED096006DB781 /* Food_Wheel.xcdatamodeld */; };
+		6AD50B21218ED0A0006DB781 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AD50B19218ED0A0006DB781 /* Assets.xcassets */; };
+		6AD50B22218ED0A0006DB781 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AD50B1B218ED0A0006DB781 /* LaunchScreen.storyboard */; };
+		6AD50B23218ED0A0006DB781 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AD50B1D218ED0A0006DB781 /* Main.storyboard */; };
+		6AD50B24218ED0A0006DB781 /* Food_Wheel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6AD50B1F218ED0A0006DB781 /* Food_Wheel.xcdatamodeld */; };
 		6AE2A97A217BBC3200CE75F4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE2A979217BBC3100CE75F4 /* SignUpViewController.swift */; };
 		B04A041D21531A9C00E50EC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04A041C21531A9C00E50EC6 /* AppDelegate.swift */; };
 		B04A041F21531A9C00E50EC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04A041E21531A9C00E50EC6 /* ViewController.swift */; };
@@ -46,7 +52,13 @@
 		2447BCF516B3834357D50690 /* Pods-Food WheelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food WheelUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Food WheelUITests/Pods-Food WheelUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2B9AB9E04F1165F5B1B07069 /* Pods_Food_Wheel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Food_Wheel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		34946E117B07AC01B2E5BEF6 /* Pods-Food Wheel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food Wheel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Food Wheel/Pods-Food Wheel.debug.xcconfig"; sourceTree = "<group>"; };
-		6A3464F4215EC658007FF46A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../var/folders/79/mzprvq357jdd8xdt3hqkf1kr0000gn/T/com.apple.iChat/Messages/Transfers/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6A36F5B42193750700E7DC03 /* GoogleService-Info (9).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info (9).plist"; path = "../../../../Downloads/GoogleService-Info (9).plist"; sourceTree = "<group>"; };
+		6AB602A9218A7E3900939457 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6AD50B17218ED096006DB781 /* Food_Wheel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Food_Wheel.xcdatamodel; sourceTree = "<group>"; };
+		6AD50B19218ED0A0006DB781 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6AD50B1C218ED0A0006DB781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6AD50B1E218ED0A0006DB781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		6AD50B20218ED0A0006DB781 /* Food_Wheel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Food_Wheel.xcdatamodel; sourceTree = "<group>"; };
 		6AE2A979217BBC3100CE75F4 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		931102A63CEF5CF4E9ED52F5 /* Pods_Food_WheelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Food_WheelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DBED91AEF1807C1537274B4 /* Pods_Food_WheelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Food_WheelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,6 +111,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6AD50B1A218ED0A0006DB781 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				6AD50B1B218ED0A0006DB781 /* LaunchScreen.storyboard */,
+				6AD50B1D218ED0A0006DB781 /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
 		A9536347482A61E2C4BC5E67 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +158,11 @@
 		B04A041B21531A9C00E50EC6 /* Food Wheel */ = {
 			isa = PBXGroup;
 			children = (
+				6AD50B16218ED096006DB781 /* Food_Wheel.xcdatamodeld */,
+				6A36F5B42193750700E7DC03 /* GoogleService-Info (9).plist */,
+				6AD50B19218ED0A0006DB781 /* Assets.xcassets */,
+				6AD50B1A218ED0A0006DB781 /* Base.lproj */,
+				6AD50B1F218ED0A0006DB781 /* Food_Wheel.xcdatamodeld */,
 				B04A045021531AFC00E50EC6 /* Food Wheel.entitlements */,
 				B04A041C21531A9C00E50EC6 /* AppDelegate.swift */,
 				B04A041E21531A9C00E50EC6 /* ViewController.swift */,
@@ -144,7 +170,7 @@
 				B04A042621531A9C00E50EC6 /* Assets.xcassets */,
 				B04A042821531A9C00E50EC6 /* LaunchScreen.storyboard */,
 				B04A042B21531A9C00E50EC6 /* Info.plist */,
-				6A3464F4215EC658007FF46A /* GoogleService-Info.plist */,
+				6AB602A9218A7E3900939457 /* Assets.xcassets */,
 				B04A042321531A9C00E50EC6 /* Food_Wheel.xcdatamodeld */,
 				6AE2A979217BBC3100CE75F4 /* SignUpViewController.swift */,
 			);
@@ -303,9 +329,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B04A042A21531A9C00E50EC6 /* LaunchScreen.storyboard in Resources */,
-				6A3464F5215EC658007FF46A /* GoogleService-Info.plist in Resources */,
 				B04A042721531A9C00E50EC6 /* Assets.xcassets in Resources */,
+				6AD50B23218ED0A0006DB781 /* Main.storyboard in Resources */,
 				B04A042221531A9C00E50EC6 /* Main.storyboard in Resources */,
+				6AD50B22218ED0A0006DB781 /* LaunchScreen.storyboard in Resources */,
+				6AD50B21218ED0A0006DB781 /* Assets.xcassets in Resources */,
+				6AB602AA218A7E3900939457 /* Assets.xcassets in Resources */,
+				6A36F5B52193750700E7DC03 /* GoogleService-Info (9).plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +440,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B04A041F21531A9C00E50EC6 /* ViewController.swift in Sources */,
+				6AD50B24218ED0A0006DB781 /* Food_Wheel.xcdatamodeld in Sources */,
+				6AD50B18218ED096006DB781 /* Food_Wheel.xcdatamodeld in Sources */,
 				B04A042521531A9C00E50EC6 /* Food_Wheel.xcdatamodeld in Sources */,
 				6AE2A97A217BBC3200CE75F4 /* SignUpViewController.swift in Sources */,
 				B04A041D21531A9C00E50EC6 /* AppDelegate.swift in Sources */,
@@ -448,6 +480,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		6AD50B1B218ED0A0006DB781 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AD50B1C218ED0A0006DB781 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6AD50B1D218ED0A0006DB781 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AD50B1E218ED0A0006DB781 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		B04A042021531A9C00E50EC6 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -720,6 +768,26 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
+		6AD50B16218ED096006DB781 /* Food_Wheel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6AD50B17218ED096006DB781 /* Food_Wheel.xcdatamodel */,
+			);
+			currentVersion = 6AD50B17218ED096006DB781 /* Food_Wheel.xcdatamodel */;
+			path = Food_Wheel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		6AD50B1F218ED0A0006DB781 /* Food_Wheel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6AD50B20218ED0A0006DB781 /* Food_Wheel.xcdatamodel */,
+			);
+			currentVersion = 6AD50B20218ED0A0006DB781 /* Food_Wheel.xcdatamodel */;
+			path = Food_Wheel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		B04A042321531A9C00E50EC6 /* Food_Wheel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
