@@ -15,6 +15,13 @@
 		6AD50B23218ED0A0006DB781 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AD50B1D218ED0A0006DB781 /* Main.storyboard */; };
 		6AD50B24218ED0A0006DB781 /* Food_Wheel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6AD50B1F218ED0A0006DB781 /* Food_Wheel.xcdatamodeld */; };
 		6AE2A97A217BBC3200CE75F4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE2A979217BBC3100CE75F4 /* SignUpViewController.swift */; };
+		77ADEB0D219C117400862F2B /* ZipCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77ADEB0C219C117400862F2B /* ZipCodeViewController.swift */; };
+		77ADEB0F219C11D000862F2B /* CoffeeFoodOptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77ADEB0E219C11D000862F2B /* CoffeeFoodOptionViewController.swift */; };
+		77ADEB11219C11FB00862F2B /* CoffeeSpinWheelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77ADEB10219C11FB00862F2B /* CoffeeSpinWheelViewController.swift */; };
+		77ADEB13219C122C00862F2B /* FoodSpinWheelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77ADEB12219C122C00862F2B /* FoodSpinWheelViewController.swift */; };
+		77ADEB15219C125900862F2B /* YelpResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77ADEB14219C125900862F2B /* YelpResultsViewController.swift */; };
+		77ADEB37219F8A2B00862F2B /* UserHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77ADEB36219F8A2B00862F2B /* UserHistoryViewController.swift */; };
+		77ADEB39219F8A5400862F2B /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77ADEB38219F8A5400862F2B /* ContactViewController.swift */; };
 		B04A041D21531A9C00E50EC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04A041C21531A9C00E50EC6 /* AppDelegate.swift */; };
 		B04A041F21531A9C00E50EC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04A041E21531A9C00E50EC6 /* ViewController.swift */; };
 		B04A042221531A9C00E50EC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B04A042021531A9C00E50EC6 /* Main.storyboard */; };
@@ -60,6 +67,13 @@
 		6AD50B1E218ED0A0006DB781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
 		6AD50B20218ED0A0006DB781 /* Food_Wheel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Food_Wheel.xcdatamodel; sourceTree = "<group>"; };
 		6AE2A979217BBC3100CE75F4 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		77ADEB0C219C117400862F2B /* ZipCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipCodeViewController.swift; sourceTree = "<group>"; };
+		77ADEB0E219C11D000862F2B /* CoffeeFoodOptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeFoodOptionViewController.swift; sourceTree = "<group>"; };
+		77ADEB10219C11FB00862F2B /* CoffeeSpinWheelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeSpinWheelViewController.swift; sourceTree = "<group>"; };
+		77ADEB12219C122C00862F2B /* FoodSpinWheelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodSpinWheelViewController.swift; sourceTree = "<group>"; };
+		77ADEB14219C125900862F2B /* YelpResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpResultsViewController.swift; sourceTree = "<group>"; };
+		77ADEB36219F8A2B00862F2B /* UserHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserHistoryViewController.swift; sourceTree = "<group>"; };
+		77ADEB38219F8A5400862F2B /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		931102A63CEF5CF4E9ED52F5 /* Pods_Food_WheelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Food_WheelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DBED91AEF1807C1537274B4 /* Pods_Food_WheelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Food_WheelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7EEAF4A3E375CCE4DBF5D41 /* Pods-Food WheelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food WheelTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Food WheelTests/Pods-Food WheelTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -167,12 +181,19 @@
 				B04A041C21531A9C00E50EC6 /* AppDelegate.swift */,
 				B04A041E21531A9C00E50EC6 /* ViewController.swift */,
 				B04A042021531A9C00E50EC6 /* Main.storyboard */,
+				77ADEB14219C125900862F2B /* YelpResultsViewController.swift */,
+				77ADEB12219C122C00862F2B /* FoodSpinWheelViewController.swift */,
+				77ADEB10219C11FB00862F2B /* CoffeeSpinWheelViewController.swift */,
+				77ADEB0E219C11D000862F2B /* CoffeeFoodOptionViewController.swift */,
+				77ADEB0C219C117400862F2B /* ZipCodeViewController.swift */,
 				B04A042621531A9C00E50EC6 /* Assets.xcassets */,
 				B04A042821531A9C00E50EC6 /* LaunchScreen.storyboard */,
 				B04A042B21531A9C00E50EC6 /* Info.plist */,
 				6AB602A9218A7E3900939457 /* Assets.xcassets */,
 				B04A042321531A9C00E50EC6 /* Food_Wheel.xcdatamodeld */,
 				6AE2A979217BBC3100CE75F4 /* SignUpViewController.swift */,
+				77ADEB36219F8A2B00862F2B /* UserHistoryViewController.swift */,
+				77ADEB38219F8A5400862F2B /* ContactViewController.swift */,
 			);
 			path = "Food Wheel";
 			sourceTree = "<group>";
@@ -439,12 +460,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77ADEB13219C122C00862F2B /* FoodSpinWheelViewController.swift in Sources */,
+				77ADEB11219C11FB00862F2B /* CoffeeSpinWheelViewController.swift in Sources */,
+				77ADEB39219F8A5400862F2B /* ContactViewController.swift in Sources */,
+				77ADEB37219F8A2B00862F2B /* UserHistoryViewController.swift in Sources */,
+				77ADEB15219C125900862F2B /* YelpResultsViewController.swift in Sources */,
 				B04A041F21531A9C00E50EC6 /* ViewController.swift in Sources */,
 				6AD50B24218ED0A0006DB781 /* Food_Wheel.xcdatamodeld in Sources */,
+				77ADEB0D219C117400862F2B /* ZipCodeViewController.swift in Sources */,
 				6AD50B18218ED096006DB781 /* Food_Wheel.xcdatamodeld in Sources */,
 				B04A042521531A9C00E50EC6 /* Food_Wheel.xcdatamodeld in Sources */,
 				6AE2A97A217BBC3200CE75F4 /* SignUpViewController.swift in Sources */,
 				B04A041D21531A9C00E50EC6 /* AppDelegate.swift in Sources */,
+				77ADEB0F219C11D000862F2B /* CoffeeFoodOptionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
