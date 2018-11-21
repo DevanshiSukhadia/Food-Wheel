@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6A36F5B52193750700E7DC03 /* GoogleService-Info (9).plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A36F5B42193750700E7DC03 /* GoogleService-Info (9).plist */; };
 		6AB602AA218A7E3900939457 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AB602A9218A7E3900939457 /* Assets.xcassets */; };
 		6AD50B18218ED096006DB781 /* Food_Wheel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6AD50B16218ED096006DB781 /* Food_Wheel.xcdatamodeld */; };
 		6AD50B21218ED0A0006DB781 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AD50B19218ED0A0006DB781 /* Assets.xcassets */; };
@@ -24,6 +23,7 @@
 		B04A043521531A9C00E50EC6 /* Food_WheelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04A043421531A9C00E50EC6 /* Food_WheelTests.swift */; };
 		B04A044021531A9C00E50EC6 /* Food_WheelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04A043F21531A9C00E50EC6 /* Food_WheelUITests.swift */; };
 		B04A045221531B7700E50EC6 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B04A045121531B7700E50EC6 /* CloudKit.framework */; };
+		B052577321A5094E00254E5C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B052577221A5094E00254E5C /* GoogleService-Info.plist */; };
 		CA05DD5E2F1649936889B372 /* Pods_Food_WheelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DBED91AEF1807C1537274B4 /* Pods_Food_WheelTests.framework */; };
 		E0AB667739B3FFF191D21D52 /* Pods_Food_Wheel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B9AB9E04F1165F5B1B07069 /* Pods_Food_Wheel.framework */; };
 		E7A190F12A2EB136049D2BAB /* Pods_Food_WheelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931102A63CEF5CF4E9ED52F5 /* Pods_Food_WheelUITests.framework */; };
@@ -52,7 +52,6 @@
 		2447BCF516B3834357D50690 /* Pods-Food WheelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food WheelUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Food WheelUITests/Pods-Food WheelUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2B9AB9E04F1165F5B1B07069 /* Pods_Food_Wheel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Food_Wheel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		34946E117B07AC01B2E5BEF6 /* Pods-Food Wheel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food Wheel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Food Wheel/Pods-Food Wheel.debug.xcconfig"; sourceTree = "<group>"; };
-		6A36F5B42193750700E7DC03 /* GoogleService-Info (9).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info (9).plist"; path = "../../../../Downloads/GoogleService-Info (9).plist"; sourceTree = "<group>"; };
 		6AB602A9218A7E3900939457 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6AD50B17218ED096006DB781 /* Food_Wheel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Food_Wheel.xcdatamodel; sourceTree = "<group>"; };
 		6AD50B19218ED0A0006DB781 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -79,6 +78,7 @@
 		B04A044121531A9C00E50EC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B04A045021531AFC00E50EC6 /* Food Wheel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Food Wheel.entitlements"; sourceTree = "<group>"; };
 		B04A045121531B7700E50EC6 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		B052577221A5094E00254E5C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F468A0AA0D38AEA559963210 /* Pods-Food WheelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food WheelUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Food WheelUITests/Pods-Food WheelUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -159,7 +159,6 @@
 			isa = PBXGroup;
 			children = (
 				6AD50B16218ED096006DB781 /* Food_Wheel.xcdatamodeld */,
-				6A36F5B42193750700E7DC03 /* GoogleService-Info (9).plist */,
 				6AD50B19218ED0A0006DB781 /* Assets.xcassets */,
 				6AD50B1A218ED0A0006DB781 /* Base.lproj */,
 				6AD50B1F218ED0A0006DB781 /* Food_Wheel.xcdatamodeld */,
@@ -169,6 +168,7 @@
 				B04A042021531A9C00E50EC6 /* Main.storyboard */,
 				B04A042621531A9C00E50EC6 /* Assets.xcassets */,
 				B04A042821531A9C00E50EC6 /* LaunchScreen.storyboard */,
+				B052577221A5094E00254E5C /* GoogleService-Info.plist */,
 				B04A042B21531A9C00E50EC6 /* Info.plist */,
 				6AB602A9218A7E3900939457 /* Assets.xcassets */,
 				B04A042321531A9C00E50EC6 /* Food_Wheel.xcdatamodeld */,
@@ -329,13 +329,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B04A042A21531A9C00E50EC6 /* LaunchScreen.storyboard in Resources */,
+				B052577321A5094E00254E5C /* GoogleService-Info.plist in Resources */,
 				B04A042721531A9C00E50EC6 /* Assets.xcassets in Resources */,
 				6AD50B23218ED0A0006DB781 /* Main.storyboard in Resources */,
 				B04A042221531A9C00E50EC6 /* Main.storyboard in Resources */,
 				6AD50B22218ED0A0006DB781 /* LaunchScreen.storyboard in Resources */,
 				6AD50B21218ED0A0006DB781 /* Assets.xcassets in Resources */,
 				6AB602AA218A7E3900939457 /* Assets.xcassets in Resources */,
-				6A36F5B52193750700E7DC03 /* GoogleService-Info (9).plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
