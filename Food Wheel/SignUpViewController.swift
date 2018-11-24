@@ -41,6 +41,7 @@ class SignUpViewController: UIViewController {
                         
                     }
                 })
+                self.performSegue(withIdentifier: "successLoginScreen", sender: self)
             } else {
                 print("Error: \(error!.localizedDescription)")
             }

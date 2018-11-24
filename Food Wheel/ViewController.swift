@@ -31,6 +31,7 @@ class ViewController: UIViewController {
         Auth.auth().signIn(withEmail: email, password: pass) { (user, error) in
             if error == nil && user != nil {
                 print("login")
+                self.performSegue(withIdentifier: "successLoginScreen", sender: self)
             } else {
                 print("\(error?.localizedDescription)")
             }

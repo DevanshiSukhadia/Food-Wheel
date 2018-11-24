@@ -9,6 +9,7 @@ target 'Food Wheel' do
   # Pods for Food Wheel
     pod 'Firebase/Core'
     pod 'Firebase/Auth'
+    pod 'lottie-ios'
 
 
   target 'Food WheelTests' do
