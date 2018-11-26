@@ -21,6 +21,7 @@ class SignUpViewController: UIViewController {
     
     override func viewDidLoad() {
         signUpButton.addTarget(self, action: #selector(handleSignUp), for: .touchUpInside)
+        self.hideKeyboard()
     }
     
     @objc func handleSignUp() {
@@ -41,7 +42,7 @@ class SignUpViewController: UIViewController {
                         
                     }
                 })
-                self.performSegue(withIdentifier: "successLoginScreen", sender: self)
+                self.performSegue(withIdentifier: "showSuccess", sender: self)
             } else {
                 print("Error: \(error!.localizedDescription)")
             }
