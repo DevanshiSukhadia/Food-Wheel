@@ -25,6 +25,7 @@
 		6AE2A97A217BBC3200CE75F4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE2A979217BBC3100CE75F4 /* SignUpViewController.swift */; };
 		B030D9BB21ABA67C001DA8A2 /* FoodSpinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B030D9BA21ABA67C001DA8A2 /* FoodSpinnerViewController.swift */; };
 		B030D9BD21ABA6D1001DA8A2 /* CoffeeSpinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B030D9BC21ABA6D1001DA8A2 /* CoffeeSpinnerViewController.swift */; };
+		B039BADD21ABE87600D8E76C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B039BADC21ABE87600D8E76C /* ProfileViewController.swift */; };
 		B04A041D21531A9C00E50EC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04A041C21531A9C00E50EC6 /* AppDelegate.swift */; };
 		B04A041F21531A9C00E50EC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04A041E21531A9C00E50EC6 /* ViewController.swift */; };
 		B04A042221531A9C00E50EC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B04A042021531A9C00E50EC6 /* Main.storyboard */; };
@@ -84,6 +85,7 @@
 		A7EEAF4A3E375CCE4DBF5D41 /* Pods-Food WheelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food WheelTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Food WheelTests/Pods-Food WheelTests.release.xcconfig"; sourceTree = "<group>"; };
 		B030D9BA21ABA67C001DA8A2 /* FoodSpinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodSpinnerViewController.swift; sourceTree = "<group>"; };
 		B030D9BC21ABA6D1001DA8A2 /* CoffeeSpinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeSpinnerViewController.swift; sourceTree = "<group>"; };
+		B039BADC21ABE87600D8E76C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		B04A041921531A9C00E50EC6 /* Food Wheel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Wheel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B04A041C21531A9C00E50EC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B04A041E21531A9C00E50EC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -206,6 +208,7 @@
 				6A50674521ABA0640047E0C3 /* OptionViewController.swift */,
 				B030D9BA21ABA67C001DA8A2 /* FoodSpinnerViewController.swift */,
 				B030D9BC21ABA6D1001DA8A2 /* CoffeeSpinnerViewController.swift */,
+				B039BADC21ABE87600D8E76C /* ProfileViewController.swift */,
 			);
 			path = "Food Wheel";
 			sourceTree = "<group>";
@@ -510,6 +513,7 @@
 				6A50674621ABA0640047E0C3 /* OptionViewController.swift in Sources */,
 				6A12867721A9E54600CC0CEE /* ZipCodeViewController.swift in Sources */,
 				6AD50B18218ED096006DB781 /* Food_Wheel.xcdatamodeld in Sources */,
+				B039BADD21ABE87600D8E76C /* ProfileViewController.swift in Sources */,
 				B030D9BD21ABA6D1001DA8A2 /* CoffeeSpinnerViewController.swift in Sources */,
 				B04A042521531A9C00E50EC6 /* Food_Wheel.xcdatamodeld in Sources */,
 				6AE2A97A217BBC3200CE75F4 /* SignUpViewController.swift in Sources */,
