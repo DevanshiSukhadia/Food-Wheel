@@ -171,6 +171,10 @@
                         <outlet property="nameTextField" destination="yfO-vh-7YG" id="nNZ-RH-WvD"/>
                         <outlet property="passwordTextField" destination="HUL-v0-sns" id="qQZ-3C-d8b"/>
                         <outlet property="signUpButton" destination="HyZ-my-S9G" id="5k7-Iy-wb1"/>
+                        <segue destination="HPo-Q5-iXG" kind="show" id="Uzi-RC-sbN"/>
+                        <segue destination="HPo-Q5-iXG" kind="show" id="jwn-8C-VMP"/>
+                        <segue destination="HPo-Q5-iXG" kind="show" id="3yX-Ak-pHq"/>
+                        <segue destination="x10-rB-yHF" kind="show" identifier="showSuccess" id="sew-Q1-P0r"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qba-81-ZQ3" sceneMemberID="firstResponder"/>
@@ -191,10 +195,10 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LLg-fU-DDt">
-                                <rect key="frame" x="189" y="580" width="41" height="36"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="KohinoorDevanagari-Regular" family="Kohinoor Devanagari" pointSize="17"/>
-                                <state key="normal" title="Enter">
+                                <state key="normal">
                                     <color key="titleColor" red="0.91090255980000001" green="0.63691931960000003" blue="0.68401211500000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -230,8 +234,8 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Please enter your Zipcode:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vd6-7f-DUd">
-                                <rect key="frame" x="94" y="238" width="227" height="27"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Please enter your City:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vd6-7f-DUd">
+                                <rect key="frame" x="88" y="238" width="193" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="19"/>
@@ -245,6 +249,13 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lJA-1R-p2Y">
+                                <rect key="frame" x="93" y="311" width="37" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Enter">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.91090255980000001" green="0.63691931960000003" blue="0.68401211500000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="0Ge-Gt-fUj"/>
@@ -260,4 +271,8 @@
         <image name="fork" width="46.428211212158203" height="46.428211212158203"/>
         <image name="knife" width="45.623764038085938" height="45.623764038085938"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="cXJ-Y8-Cop"/>
+        <segue reference="sew-Q1-P0r"/>
+    </inferredMetricsTieBreakers>
 </document>
