@@ -10,7 +10,7 @@ import UIKit
 
 class OptionViewController: UIViewController {
     
-    var cityName = String()
+    static var cityName: String!
     
     @IBOutlet weak var display: UILabel!
     override func viewDidLoad() {
@@ -20,8 +20,8 @@ class OptionViewController: UIViewController {
         
     }
     func displayLabel() {
-        display.text = "What would you like \n to have in \(cityName)"
-        print("What would you like \n to have in \(cityName)")
+        display.text = "What would you like \n to have in \(OptionViewController.cityName)"
+        print("What would you like \n to have in \(OptionViewController.cityName)")
         
     }
     
@@ -36,3 +36,4 @@ class OptionViewController: UIViewController {
      */
     
 }
+

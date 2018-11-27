@@ -15,6 +15,32 @@
 		6A12868121AA187000CC0CEE /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A12868021AA187000CC0CEE /* ExternalAccessory.framework */; };
 		6A12868321AA187300CC0CEE /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A12868221AA187300CC0CEE /* HomeKit.framework */; };
 		6A12868521AA187600CC0CEE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A12868421AA187600CC0CEE /* AudioToolbox.framework */; };
+		6A48801B21ACAE39009518FA /* DisplayFoodListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A48801A21ACAE39009518FA /* DisplayFoodListViewController.swift */; };
+		6A48803D21ACC866009518FA /* santaclaragreek.json in Resources */ = {isa = PBXBuildFile; fileRef = 6A48801F21ACC866009518FA /* santaclaragreek.json */; };
+		6A48803E21ACC866009518FA /* santaclaramexican.json in Resources */ = {isa = PBXBuildFile; fileRef = 6A48802021ACC866009518FA /* santaclaramexican.json */; };
+		6A48803F21ACC866009518FA /* santaclarajapanese.json in Resources */ = {isa = PBXBuildFile; fileRef = 6A48802121ACC866009518FA /* santaclarajapanese.json */; };
+		6A48804021ACC866009518FA /* santaclaraindian.json in Resources */ = {isa = PBXBuildFile; fileRef = 6A48802221ACC866009518FA /* santaclaraindian.json */; };
+		6A48804121ACC866009518FA /* santaclaraitalian.json in Resources */ = {isa = PBXBuildFile; fileRef = 6A48802321ACC866009518FA /* santaclaraitalian.json */; };
+		6A48804221ACC866009518FA /* sanjoseitalian.json in Resources */ = {isa = PBXBuildFile; fileRef = 6A48802521ACC866009518FA /* sanjoseitalian.json */; };
+		6A48804321ACC866009518FA /* sanjoseindian.json in Resources */ = {isa = PBXBuildFile; fileRef = 6A48802621ACC866009518FA /* sanjoseindian.json */; };
+		6A48804421ACC866009518FA /* sanjosejapanese.json in Resources */ = {isa = PBXBuildFile; fileRef = 6A48802721ACC866009518FA /* sanjosejapanese.json */; };
+		6A48804521ACC866009518FA /* sanjosegreek.json in Resources */ = {isa = PBXBuildFile; fileRef = 6A48802821ACC866009518FA /* sanjosegreek.json */; };
+		6A48804621ACC866009518FA /* sanjosemexican.json in Resources */ = {isa = PBXBuildFile; fileRef = 6A48802921ACC866009518FA /* sanjosemexican.json */; };
+		6A48804721ACC866009518FA /* fremontmexican.json in Resources */ = {isa = PBXBuildFile; fileRef = 6A48802B21ACC866009518FA /* fremontmexican.json */; };
+		6A48804821ACC866009518FA /* fremontjapanese.json in Resources */ = {isa = PBXBuildFile; fileRef = 6A48802C21ACC866009518FA /* fremontjapanese.json */; };
+		6A48804921ACC866009518FA /* fremontindian.json in Resources */ = {isa = PBXBuildFile; fileRef = 6A48802D21ACC866009518FA /* fremontindian.json */; };
+		6A48804A21ACC866009518FA /* fremontgreek.json in Resources */ = {isa = PBXBuildFile; fileRef = 6A48802E21ACC866009518FA /* fremontgreek.json */; };
+		6A48804B21ACC866009518FA /* fremontitalian.json in Resources */ = {isa = PBXBuildFile; fileRef = 6A48802F21ACC866009518FA /* fremontitalian.json */; };
+		6A48804C21ACC866009518FA /* santaclarastarbucks.json in Resources */ = {isa = PBXBuildFile; fileRef = 6A48803221ACC866009518FA /* santaclarastarbucks.json */; };
+		6A48804D21ACC866009518FA /* sanjosestarbucks.json in Resources */ = {isa = PBXBuildFile; fileRef = 6A48803321ACC866009518FA /* sanjosestarbucks.json */; };
+		6A48804E21ACC866009518FA /* fremontstarbucks.json in Resources */ = {isa = PBXBuildFile; fileRef = 6A48803421ACC866009518FA /* fremontstarbucks.json */; };
+		6A48804F21ACC866009518FA /* santaclaraphilz.json in Resources */ = {isa = PBXBuildFile; fileRef = 6A48803621ACC866009518FA /* santaclaraphilz.json */; };
+		6A48805021ACC866009518FA /* sanjosephilz.json in Resources */ = {isa = PBXBuildFile; fileRef = 6A48803721ACC866009518FA /* sanjosephilz.json */; };
+		6A48805121ACC866009518FA /* fremontphilz.json in Resources */ = {isa = PBXBuildFile; fileRef = 6A48803821ACC866009518FA /* fremontphilz.json */; };
+		6A48805221ACC866009518FA /* santaclarapeets.json in Resources */ = {isa = PBXBuildFile; fileRef = 6A48803A21ACC866009518FA /* santaclarapeets.json */; };
+		6A48805321ACC866009518FA /* fremontpeets.json in Resources */ = {isa = PBXBuildFile; fileRef = 6A48803B21ACC866009518FA /* fremontpeets.json */; };
+		6A48805421ACC866009518FA /* sanjosepeets.json in Resources */ = {isa = PBXBuildFile; fileRef = 6A48803C21ACC866009518FA /* sanjosepeets.json */; };
+		6A48809221ACEC6F009518FA /* store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A48809121ACEC6F009518FA /* store.swift */; };
 		6A50674621ABA0640047E0C3 /* OptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A50674521ABA0640047E0C3 /* OptionViewController.swift */; };
 		6AB602AA218A7E3900939457 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AB602A9218A7E3900939457 /* Assets.xcassets */; };
 		6AD50B18218ED096006DB781 /* Food_Wheel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6AD50B16218ED096006DB781 /* Food_Wheel.xcdatamodeld */; };
@@ -71,6 +97,32 @@
 		6A12868021AA187000CC0CEE /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
 		6A12868221AA187300CC0CEE /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = System/Library/Frameworks/HomeKit.framework; sourceTree = SDKROOT; };
 		6A12868421AA187600CC0CEE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6A48801A21ACAE39009518FA /* DisplayFoodListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayFoodListViewController.swift; sourceTree = "<group>"; };
+		6A48801F21ACC866009518FA /* santaclaragreek.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = santaclaragreek.json; sourceTree = "<group>"; };
+		6A48802021ACC866009518FA /* santaclaramexican.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = santaclaramexican.json; sourceTree = "<group>"; };
+		6A48802121ACC866009518FA /* santaclarajapanese.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = santaclarajapanese.json; sourceTree = "<group>"; };
+		6A48802221ACC866009518FA /* santaclaraindian.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = santaclaraindian.json; sourceTree = "<group>"; };
+		6A48802321ACC866009518FA /* santaclaraitalian.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = santaclaraitalian.json; sourceTree = "<group>"; };
+		6A48802521ACC866009518FA /* sanjoseitalian.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sanjoseitalian.json; sourceTree = "<group>"; };
+		6A48802621ACC866009518FA /* sanjoseindian.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sanjoseindian.json; sourceTree = "<group>"; };
+		6A48802721ACC866009518FA /* sanjosejapanese.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sanjosejapanese.json; sourceTree = "<group>"; };
+		6A48802821ACC866009518FA /* sanjosegreek.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sanjosegreek.json; sourceTree = "<group>"; };
+		6A48802921ACC866009518FA /* sanjosemexican.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sanjosemexican.json; sourceTree = "<group>"; };
+		6A48802B21ACC866009518FA /* fremontmexican.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fremontmexican.json; sourceTree = "<group>"; };
+		6A48802C21ACC866009518FA /* fremontjapanese.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fremontjapanese.json; sourceTree = "<group>"; };
+		6A48802D21ACC866009518FA /* fremontindian.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fremontindian.json; sourceTree = "<group>"; };
+		6A48802E21ACC866009518FA /* fremontgreek.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fremontgreek.json; sourceTree = "<group>"; };
+		6A48802F21ACC866009518FA /* fremontitalian.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fremontitalian.json; sourceTree = "<group>"; };
+		6A48803221ACC866009518FA /* santaclarastarbucks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = santaclarastarbucks.json; sourceTree = "<group>"; };
+		6A48803321ACC866009518FA /* sanjosestarbucks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sanjosestarbucks.json; sourceTree = "<group>"; };
+		6A48803421ACC866009518FA /* fremontstarbucks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fremontstarbucks.json; sourceTree = "<group>"; };
+		6A48803621ACC866009518FA /* santaclaraphilz.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = santaclaraphilz.json; sourceTree = "<group>"; };
+		6A48803721ACC866009518FA /* sanjosephilz.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sanjosephilz.json; sourceTree = "<group>"; };
+		6A48803821ACC866009518FA /* fremontphilz.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fremontphilz.json; sourceTree = "<group>"; };
+		6A48803A21ACC866009518FA /* santaclarapeets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = santaclarapeets.json; sourceTree = "<group>"; };
+		6A48803B21ACC866009518FA /* fremontpeets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fremontpeets.json; sourceTree = "<group>"; };
+		6A48803C21ACC866009518FA /* sanjosepeets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sanjosepeets.json; sourceTree = "<group>"; };
+		6A48809121ACEC6F009518FA /* store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = store.swift; sourceTree = "<group>"; };
 		6A50674521ABA0640047E0C3 /* OptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionViewController.swift; sourceTree = "<group>"; };
 		6AB602A9218A7E3900939457 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6AD50B17218ED096006DB781 /* Food_Wheel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Food_Wheel.xcdatamodel; sourceTree = "<group>"; };
@@ -138,6 +190,101 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A48801C21ACC866009518FA /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				6A48801D21ACC866009518FA /* FoodJSON */,
+				6A48803021ACC866009518FA /* CoffeeJSON */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		6A48801D21ACC866009518FA /* FoodJSON */ = {
+			isa = PBXGroup;
+			children = (
+				6A48801E21ACC866009518FA /* SantaClaraJSON */,
+				6A48802421ACC866009518FA /* SanJoseFoodJSON */,
+				6A48802A21ACC866009518FA /* FremontJSON */,
+			);
+			path = FoodJSON;
+			sourceTree = "<group>";
+		};
+		6A48801E21ACC866009518FA /* SantaClaraJSON */ = {
+			isa = PBXGroup;
+			children = (
+				6A48801F21ACC866009518FA /* santaclaragreek.json */,
+				6A48802021ACC866009518FA /* santaclaramexican.json */,
+				6A48802121ACC866009518FA /* santaclarajapanese.json */,
+				6A48802221ACC866009518FA /* santaclaraindian.json */,
+				6A48802321ACC866009518FA /* santaclaraitalian.json */,
+			);
+			path = SantaClaraJSON;
+			sourceTree = "<group>";
+		};
+		6A48802421ACC866009518FA /* SanJoseFoodJSON */ = {
+			isa = PBXGroup;
+			children = (
+				6A48802521ACC866009518FA /* sanjoseitalian.json */,
+				6A48802621ACC866009518FA /* sanjoseindian.json */,
+				6A48802721ACC866009518FA /* sanjosejapanese.json */,
+				6A48802821ACC866009518FA /* sanjosegreek.json */,
+				6A48802921ACC866009518FA /* sanjosemexican.json */,
+			);
+			path = SanJoseFoodJSON;
+			sourceTree = "<group>";
+		};
+		6A48802A21ACC866009518FA /* FremontJSON */ = {
+			isa = PBXGroup;
+			children = (
+				6A48802B21ACC866009518FA /* fremontmexican.json */,
+				6A48802C21ACC866009518FA /* fremontjapanese.json */,
+				6A48802D21ACC866009518FA /* fremontindian.json */,
+				6A48802E21ACC866009518FA /* fremontgreek.json */,
+				6A48802F21ACC866009518FA /* fremontitalian.json */,
+			);
+			path = FremontJSON;
+			sourceTree = "<group>";
+		};
+		6A48803021ACC866009518FA /* CoffeeJSON */ = {
+			isa = PBXGroup;
+			children = (
+				6A48803121ACC866009518FA /* Starbucks */,
+				6A48803521ACC866009518FA /* Philz */,
+				6A48803921ACC866009518FA /* Peets */,
+			);
+			path = CoffeeJSON;
+			sourceTree = "<group>";
+		};
+		6A48803121ACC866009518FA /* Starbucks */ = {
+			isa = PBXGroup;
+			children = (
+				6A48803221ACC866009518FA /* santaclarastarbucks.json */,
+				6A48803321ACC866009518FA /* sanjosestarbucks.json */,
+				6A48803421ACC866009518FA /* fremontstarbucks.json */,
+			);
+			path = Starbucks;
+			sourceTree = "<group>";
+		};
+		6A48803521ACC866009518FA /* Philz */ = {
+			isa = PBXGroup;
+			children = (
+				6A48803621ACC866009518FA /* santaclaraphilz.json */,
+				6A48803721ACC866009518FA /* sanjosephilz.json */,
+				6A48803821ACC866009518FA /* fremontphilz.json */,
+			);
+			path = Philz;
+			sourceTree = "<group>";
+		};
+		6A48803921ACC866009518FA /* Peets */ = {
+			isa = PBXGroup;
+			children = (
+				6A48803A21ACC866009518FA /* santaclarapeets.json */,
+				6A48803B21ACC866009518FA /* fremontpeets.json */,
+				6A48803C21ACC866009518FA /* sanjosepeets.json */,
+			);
+			path = Peets;
+			sourceTree = "<group>";
+		};
 		6AD50B1A218ED0A0006DB781 /* Base.lproj */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,6 +335,7 @@
 				6A12867821A9E76300CC0CEE /* data.json */,
 				6AD50B16218ED096006DB781 /* Food_Wheel.xcdatamodeld */,
 				6AD50B19218ED0A0006DB781 /* Assets.xcassets */,
+				6A48801C21ACC866009518FA /* JSON */,
 				6AD50B1A218ED0A0006DB781 /* Base.lproj */,
 				6AD50B1F218ED0A0006DB781 /* Food_Wheel.xcdatamodeld */,
 				B04A045021531AFC00E50EC6 /* Food Wheel.entitlements */,
@@ -201,11 +349,13 @@
 				6AB602A9218A7E3900939457 /* Assets.xcassets */,
 				B04A042321531A9C00E50EC6 /* Food_Wheel.xcdatamodeld */,
 				6AE2A979217BBC3100CE75F4 /* SignUpViewController.swift */,
+				6A48809121ACEC6F009518FA /* store.swift */,
 				6A12867621A9E54600CC0CEE /* ZipCodeViewController.swift */,
 				6A12867A21A9E94D00CC0CEE /* SuccessViewController.swift */,
 				6A50674521ABA0640047E0C3 /* OptionViewController.swift */,
 				B030D9BA21ABA67C001DA8A2 /* FoodSpinnerViewController.swift */,
 				B030D9BC21ABA6D1001DA8A2 /* CoffeeSpinnerViewController.swift */,
+				6A48801A21ACAE39009518FA /* DisplayFoodListViewController.swift */,
 			);
 			path = "Food Wheel";
 			sourceTree = "<group>";
@@ -390,14 +540,38 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A48804321ACC866009518FA /* sanjoseindian.json in Resources */,
+				6A48804A21ACC866009518FA /* fremontgreek.json in Resources */,
+				6A48803F21ACC866009518FA /* santaclarajapanese.json in Resources */,
 				B04A042A21531A9C00E50EC6 /* LaunchScreen.storyboard in Resources */,
 				B052577321A5094E00254E5C /* GoogleService-Info.plist in Resources */,
+				6A48804621ACC866009518FA /* sanjosemexican.json in Resources */,
+				6A48804E21ACC866009518FA /* fremontstarbucks.json in Resources */,
+				6A48805021ACC866009518FA /* sanjosephilz.json in Resources */,
+				6A48803D21ACC866009518FA /* santaclaragreek.json in Resources */,
+				6A48804221ACC866009518FA /* sanjoseitalian.json in Resources */,
+				6A48804D21ACC866009518FA /* sanjosestarbucks.json in Resources */,
+				6A48804821ACC866009518FA /* fremontjapanese.json in Resources */,
+				6A48804921ACC866009518FA /* fremontindian.json in Resources */,
+				6A48804721ACC866009518FA /* fremontmexican.json in Resources */,
 				B04A042721531A9C00E50EC6 /* Assets.xcassets in Resources */,
 				6AD50B23218ED0A0006DB781 /* Main.storyboard in Resources */,
 				B04A042221531A9C00E50EC6 /* Main.storyboard in Resources */,
 				6AD50B22218ED0A0006DB781 /* LaunchScreen.storyboard in Resources */,
+				6A48804F21ACC866009518FA /* santaclaraphilz.json in Resources */,
+				6A48804121ACC866009518FA /* santaclaraitalian.json in Resources */,
+				6A48804B21ACC866009518FA /* fremontitalian.json in Resources */,
+				6A48805321ACC866009518FA /* fremontpeets.json in Resources */,
+				6A48805421ACC866009518FA /* sanjosepeets.json in Resources */,
+				6A48804C21ACC866009518FA /* santaclarastarbucks.json in Resources */,
 				6AD50B21218ED0A0006DB781 /* Assets.xcassets in Resources */,
+				6A48803E21ACC866009518FA /* santaclaramexican.json in Resources */,
+				6A48804421ACC866009518FA /* sanjosejapanese.json in Resources */,
+				6A48805121ACC866009518FA /* fremontphilz.json in Resources */,
 				6A12867921A9E76300CC0CEE /* data.json in Resources */,
+				6A48804021ACC866009518FA /* santaclaraindian.json in Resources */,
+				6A48804521ACC866009518FA /* sanjosegreek.json in Resources */,
+				6A48805221ACC866009518FA /* santaclarapeets.json in Resources */,
 				6AB602AA218A7E3900939457 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -509,12 +683,14 @@
 				6AD50B24218ED0A0006DB781 /* Food_Wheel.xcdatamodeld in Sources */,
 				6A50674621ABA0640047E0C3 /* OptionViewController.swift in Sources */,
 				6A12867721A9E54600CC0CEE /* ZipCodeViewController.swift in Sources */,
+				6A48809221ACEC6F009518FA /* store.swift in Sources */,
 				6AD50B18218ED096006DB781 /* Food_Wheel.xcdatamodeld in Sources */,
 				B030D9BD21ABA6D1001DA8A2 /* CoffeeSpinnerViewController.swift in Sources */,
 				B04A042521531A9C00E50EC6 /* Food_Wheel.xcdatamodeld in Sources */,
 				6AE2A97A217BBC3200CE75F4 /* SignUpViewController.swift in Sources */,
 				6A12867B21A9E94D00CC0CEE /* SuccessViewController.swift in Sources */,
 				B04A041D21531A9C00E50EC6 /* AppDelegate.swift in Sources */,
+				6A48801B21ACAE39009518FA /* DisplayFoodListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

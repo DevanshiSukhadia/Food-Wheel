@@ -10,6 +10,7 @@ import UIKit
 
 class FoodSpinnerViewController: UIViewController {
 
+    var city: String!
     @IBOutlet weak var Food: UIButton!
     @IBOutlet weak var GreekFood: UIButton!
     @IBOutlet weak var IndianFood: UIButton!
@@ -22,7 +23,8 @@ class FoodSpinnerViewController: UIViewController {
     var ItalianFoodShuffleButtonCenter: CGPoint!
     var JapaneseFoodShuffleButtonCenter: CGPoint!
     var MexicanFoodShuffleButtonCenter: CGPoint!
-
+    var typeOfFood: String!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         greekFoodShuffleButtonCenter = GreekFood.center
@@ -52,5 +54,13 @@ class FoodSpinnerViewController: UIViewController {
         }
     }
     
-
+    @IBAction func GreekFoodClicked(_ sender: UIButton) {
+        typeOfFood = "Greek"
+        performSegue(withIdentifier: "showListOfFood", sender: self)
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let secondVC = segue.destination as! DisplayFoodListViewController
+        secondVC.foodType = typeOfFood
+    }
+    
 }

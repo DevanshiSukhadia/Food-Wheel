@@ -10,7 +10,6 @@ import UIKit
 
 class ZipCodeViewController: UIViewController {
     @IBOutlet var cityEntered: UITextField!
-    var city: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,7 +18,8 @@ class ZipCodeViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let secondVC = segue.destination as! OptionViewController
-        secondVC.cityName = cityEntered.text!
+//        secondVC.cityName = cityEntered.text!
+        OptionViewController.cityName = cityEntered.text
     }
     
     @IBAction func buttonClicked(_ sender: Any) {

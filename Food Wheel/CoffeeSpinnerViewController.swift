@@ -9,6 +9,7 @@
 import UIKit
 
 class CoffeeSpinnerViewController: UIViewController {
+    var city: String!
     @IBOutlet weak var Peets: UIButton!
     @IBOutlet weak var Starbucks: UIButton!
     @IBOutlet weak var Philz: UIButton!
