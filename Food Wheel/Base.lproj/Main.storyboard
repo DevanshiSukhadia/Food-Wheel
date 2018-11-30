@@ -280,7 +280,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hZ9-do-fbJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2287" y="104"/>
+            <point key="canvasLocation" x="3314" y="162"/>
         </scene>
         <!--Option View Controller-->
         <scene sceneID="okh-HW-1N8">
@@ -329,7 +329,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CPX-mZ-geQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2968.115942028986" y="92.119565217391312"/>
+            <point key="canvasLocation" x="4370" y="104"/>
         </scene>
         <!--Coffee Spinner View Controller-->
         <scene sceneID="l8n-bZ-x8i">
@@ -386,7 +386,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UeZ-EE-kjI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3244.9275362318845" y="842.93478260869574"/>
+            <point key="canvasLocation" x="5132" y="855"/>
         </scene>
         <!--Food Spinner View Controller-->
         <scene sceneID="I2j-nT-N5d">
@@ -448,7 +448,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZhU-Uj-7N9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3734.7826086956525" y="91.304347826086968"/>
+            <point key="canvasLocation" x="5174" y="104"/>
         </scene>
         <!--Display Food List View Controller-->
         <scene sceneID="SFA-ZZ-gw2">
@@ -476,7 +476,59 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Sf-32-uRg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4413.04347826087" y="91.304347826086968"/>
+            <point key="canvasLocation" x="6026" y="92"/>
+        </scene>
+        <!--Profile Page View Controller-->
+        <scene sceneID="8FI-mP-gRQ">
+            <objects>
+                <viewController id="za5-g8-JB5" customClass="ProfilePageViewController" customModule="Food_Wheel" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="R5R-C8-qyu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images-1" translatesAutoresizingMaskIntoConstraints="NO" id="76P-UX-U73">
+                                <rect key="frame" x="0.0" y="20" width="414" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.91143965719999998" green="0.63696044679999997" blue="0.68436455730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images-1" translatesAutoresizingMaskIntoConstraints="NO" id="h8v-RX-pjW">
+                                <rect key="frame" x="127" y="200" width="160" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pwZ-O9-BqN">
+                                <rect key="frame" x="188" y="421" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Save"/>
+                                <connections>
+                                    <action selector="Save:" destination="za5-g8-JB5" eventType="touchUpInside" id="VEq-5H-MVY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="frv-P0-NaS">
+                                <rect key="frame" x="107" y="177" width="196" height="159"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="UploadPicButton:" destination="za5-g8-JB5" eventType="touchUpInside" id="YwS-fC-Hsf"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1h8-Nc-TOG">
+                                <rect key="frame" x="98" y="357" width="214" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.98922558835929764" blue="0.93453011457187407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="A8U-tm-PCk"/>
+                    </view>
+                    <connections>
+                        <outlet property="Name" destination="1h8-Nc-TOG" id="tQE-YI-Cff"/>
+                        <outlet property="profilePic" destination="h8v-RX-pjW" id="Dfc-Wo-EUp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XgM-JX-yN5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2249" y="584"/>
         </scene>
     </scenes>
     <resources>
@@ -488,13 +540,14 @@
         <image name="Starbucks" width="1200" height="1215"/>
         <image name="coffee-cup (5)" width="512" height="512"/>
         <image name="fork" width="46.428211212158203" height="46.428211212158203"/>
+        <image name="images-1" width="284" height="177"/>
         <image name="japanese-1" width="638" height="359"/>
         <image name="knife" width="45.623764038085938" height="45.623764038085938"/>
         <image name="mexican-1" width="363" height="450"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="ymx-Xb-EsZ"/>
-        <segue reference="jwn-8C-VMP"/>
+        <segue reference="cXJ-Y8-Cop"/>
         <segue reference="sew-Q1-P0r"/>
     </inferredMetricsTieBreakers>
 </document>
