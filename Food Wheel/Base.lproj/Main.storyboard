@@ -127,11 +127,17 @@
                                 <state key="normal" title="Reset password">
                                     <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="checkSecurityCode:" destination="0az-Kw-YVI" eventType="touchUpInside" id="1JA-7B-JiH"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="xQj-qH-574"/>
                     </view>
+                    <connections>
+                        <outlet property="securityCode" destination="oYh-Aw-soJ" id="0oZ-Es-vJl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D5w-vr-VMk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
