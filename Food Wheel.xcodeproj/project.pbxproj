@@ -49,6 +49,8 @@
 		6AD50B23218ED0A0006DB781 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AD50B1D218ED0A0006DB781 /* Main.storyboard */; };
 		6AD50B24218ED0A0006DB781 /* Food_Wheel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6AD50B1F218ED0A0006DB781 /* Food_Wheel.xcdatamodeld */; };
 		6AE2A97A217BBC3200CE75F4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE2A979217BBC3100CE75F4 /* SignUpViewController.swift */; };
+		77BCB7D521B25F440063B759 /* SecurityCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BCB7D421B25F440063B759 /* SecurityCodeViewController.swift */; };
+		77BCB7D721B25F5C0063B759 /* NewConfirmPwdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BCB7D621B25F5C0063B759 /* NewConfirmPwdViewController.swift */; };
 		B030D9BB21ABA67C001DA8A2 /* FoodSpinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B030D9BA21ABA67C001DA8A2 /* FoodSpinnerViewController.swift */; };
 		B030D9BD21ABA6D1001DA8A2 /* CoffeeSpinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B030D9BC21ABA6D1001DA8A2 /* CoffeeSpinnerViewController.swift */; };
 		B04A041D21531A9C00E50EC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04A041C21531A9C00E50EC6 /* AppDelegate.swift */; };
@@ -132,6 +134,8 @@
 		6AD50B1E218ED0A0006DB781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
 		6AD50B20218ED0A0006DB781 /* Food_Wheel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Food_Wheel.xcdatamodel; sourceTree = "<group>"; };
 		6AE2A979217BBC3100CE75F4 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		77BCB7D421B25F440063B759 /* SecurityCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityCodeViewController.swift; sourceTree = "<group>"; };
+		77BCB7D621B25F5C0063B759 /* NewConfirmPwdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConfirmPwdViewController.swift; sourceTree = "<group>"; };
 		931102A63CEF5CF4E9ED52F5 /* Pods_Food_WheelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Food_WheelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DBED91AEF1807C1537274B4 /* Pods_Food_WheelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Food_WheelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7EEAF4A3E375CCE4DBF5D41 /* Pods-Food WheelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food WheelTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Food WheelTests/Pods-Food WheelTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -359,6 +363,8 @@
 				B030D9BC21ABA6D1001DA8A2 /* CoffeeSpinnerViewController.swift */,
 				6A48801A21ACAE39009518FA /* DisplayFoodListViewController.swift */,
 				B0DDF4F321AE967C00B2E67A /* ProfilePageViewController.swift */,
+				77BCB7D421B25F440063B759 /* SecurityCodeViewController.swift */,
+				77BCB7D621B25F5C0063B759 /* NewConfirmPwdViewController.swift */,
 			);
 			path = "Food Wheel";
 			sourceTree = "<group>";
@@ -693,9 +699,11 @@
 				6AD50B18218ED096006DB781 /* Food_Wheel.xcdatamodeld in Sources */,
 				B030D9BD21ABA6D1001DA8A2 /* CoffeeSpinnerViewController.swift in Sources */,
 				B04A042521531A9C00E50EC6 /* Food_Wheel.xcdatamodeld in Sources */,
+				77BCB7D721B25F5C0063B759 /* NewConfirmPwdViewController.swift in Sources */,
 				6AE2A97A217BBC3200CE75F4 /* SignUpViewController.swift in Sources */,
 				6A12867B21A9E94D00CC0CEE /* SuccessViewController.swift in Sources */,
 				B04A041D21531A9C00E50EC6 /* AppDelegate.swift in Sources */,
+				77BCB7D521B25F440063B759 /* SecurityCodeViewController.swift in Sources */,
 				6A48801B21ACAE39009518FA /* DisplayFoodListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
