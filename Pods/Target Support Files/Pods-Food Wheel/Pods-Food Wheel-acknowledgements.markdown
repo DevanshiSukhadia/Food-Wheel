@@ -1695,6 +1695,10 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
    limitations under the License.
 
 
+## mailcore2-ios
+
+<html><body>You are being <a href="https://raw.githubusercontent.com/MailCore/mailcore2/master/LICENSE">redirected</a>.</body></html>
+
 ## nanopb
 
 Copyright (c) 2011 Petteri Aimonen <jpa at nanopb.mail.kapsi.fi>
