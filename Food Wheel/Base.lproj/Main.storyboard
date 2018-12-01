@@ -185,11 +185,18 @@
                                 <state key="normal" title="Done">
                                     <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="confirmPassword:" destination="4sg-gf-9RT" eventType="touchUpInside" id="3cA-Js-wxG"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="wFy-aa-b3I"/>
                     </view>
+                    <connections>
+                        <outlet property="confirmPassword" destination="tL4-YY-vcQ" id="h7H-6a-nxa"/>
+                        <outlet property="newPassword" destination="S3c-Ey-voW" id="ebr-OE-gtE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nkl-4N-Ms4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
