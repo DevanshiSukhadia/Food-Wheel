@@ -39,6 +39,27 @@ class ViewController: UIViewController {
             }
         }
     }
+        
+        @IBAction func signupSegue(_ sender: Any) {
+            performSegue(withIdentifier: "signup", sender: self)
+        }
+    
+        @IBAction func forgotPassword(_ sender: UIButton) {
+            if(emailTextField.text != "") {
+                performSegue(withIdentifier: "forgotPwd", sender: self)
+            } else {
+                let alertController = UIAlertController(title: "Enter your email", message:
+                    "", preferredStyle: UIAlertControllerStyle.alert)
+                alertController.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default,handler: nil))
+                self.present(alertController, animated: true, completion: nil)
+            }
+        }
+
+        override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+            var securityCodeViewController = segue.destination as? SecurityCodeViewController
+            securityCodeViewController?.myString = emailTextField.text!
+        }
+        
 
 
 }
