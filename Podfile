@@ -12,6 +12,7 @@ target 'Food Wheel' do
     pod 'Firebase/Storage'
     pod 'Firebase/Database'
     pod 'lottie-ios'
+    pod 'mailcore2-ios'
 
 
   target 'Food WheelTests' do
