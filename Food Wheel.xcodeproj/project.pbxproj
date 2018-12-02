@@ -61,6 +61,7 @@
 		B04A044021531A9C00E50EC6 /* Food_WheelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04A043F21531A9C00E50EC6 /* Food_WheelUITests.swift */; };
 		B04A045221531B7700E50EC6 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B04A045121531B7700E50EC6 /* CloudKit.framework */; };
 		B052577321A5094E00254E5C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B052577221A5094E00254E5C /* GoogleService-Info.plist */; };
+		B0C99D7721B3E46F00B7304E /* DisplayCoffeeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C99D7621B3E46F00B7304E /* DisplayCoffeeListViewController.swift */; };
 		B0DDF4F421AE967C00B2E67A /* ProfilePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DDF4F321AE967C00B2E67A /* ProfilePageViewController.swift */; };
 		CA05DD5E2F1649936889B372 /* Pods_Food_WheelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DBED91AEF1807C1537274B4 /* Pods_Food_WheelTests.framework */; };
 		E0AB667739B3FFF191D21D52 /* Pods_Food_Wheel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B9AB9E04F1165F5B1B07069 /* Pods_Food_Wheel.framework */; };
@@ -154,6 +155,7 @@
 		B04A045021531AFC00E50EC6 /* Food Wheel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Food Wheel.entitlements"; sourceTree = "<group>"; };
 		B04A045121531B7700E50EC6 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		B052577221A5094E00254E5C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B0C99D7621B3E46F00B7304E /* DisplayCoffeeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayCoffeeListViewController.swift; sourceTree = "<group>"; };
 		B0DDF4F321AE967C00B2E67A /* ProfilePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePageViewController.swift; sourceTree = "<group>"; };
 		F468A0AA0D38AEA559963210 /* Pods-Food WheelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food WheelUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Food WheelUITests/Pods-Food WheelUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -359,6 +361,7 @@
 				B030D9BC21ABA6D1001DA8A2 /* CoffeeSpinnerViewController.swift */,
 				6A48801A21ACAE39009518FA /* DisplayFoodListViewController.swift */,
 				B0DDF4F321AE967C00B2E67A /* ProfilePageViewController.swift */,
+				B0C99D7621B3E46F00B7304E /* DisplayCoffeeListViewController.swift */,
 			);
 			path = "Food Wheel";
 			sourceTree = "<group>";
@@ -683,6 +686,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0C99D7721B3E46F00B7304E /* DisplayCoffeeListViewController.swift in Sources */,
 				B030D9BB21ABA67C001DA8A2 /* FoodSpinnerViewController.swift in Sources */,
 				B04A041F21531A9C00E50EC6 /* ViewController.swift in Sources */,
 				6AD50B24218ED0A0006DB781 /* Food_Wheel.xcdatamodeld in Sources */,
