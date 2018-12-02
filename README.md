@@ -10,4 +10,4 @@ Contributers: Ayesha Khan, Devanshi Suhkadia, Nishtha Patel
 
 ## Video Walkthrough 
 
-<img src='https://im2.ezgif.com/tmp/ezgif-2-1d30e740d716.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://im2.ezgif.com/tmp/ezgif-2-655a52a965de.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
