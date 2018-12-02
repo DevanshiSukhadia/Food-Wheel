@@ -213,7 +213,6 @@
                                 </state>
                                 <connections>
                                     <action selector="enter:" destination="x10-rB-yHF" eventType="touchUpInside" id="NRO-Q5-5Z4"/>
-                                    <segue destination="za5-g8-JB5" kind="show" identifier="showpf" id="2fa-5u-iuD"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -222,6 +221,7 @@
                     </view>
                     <connections>
                         <outlet property="animationView" destination="GfL-9I-PkG" id="fYJ-5X-mcQ"/>
+                        <segue destination="HPo-Q5-iXG" kind="show" identifier="zipCode" id="cXJ-Y8-Cop"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xmT-Df-KzN" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -517,17 +517,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DqC-Bg-7CU">
-                                <rect key="frame" x="145" y="503" width="125" height="27"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="17"/>
-                                <state key="normal" title="Go To Next Page">
-                                    <color key="titleColor" red="0.99885004759999996" green="0.29287660119999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="HPo-Q5-iXG" kind="show" id="cQ2-Be-luw"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.98922558835929764" blue="0.93453011457187407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="A8U-tm-PCk"/>
@@ -539,7 +528,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XgM-JX-yN5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2218.840579710145" y="592.66304347826087"/>
+            <point key="canvasLocation" x="2249" y="584"/>
         </scene>
     </scenes>
     <resources>
@@ -558,7 +547,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="ymx-Xb-EsZ"/>
-        <segue reference="3yX-Ak-pHq"/>
+        <segue reference="cXJ-Y8-Cop"/>
         <segue reference="sew-Q1-P0r"/>
     </inferredMetricsTieBreakers>
 </document>

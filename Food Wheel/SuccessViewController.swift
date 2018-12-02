@@ -19,7 +19,7 @@ class SuccessViewController: UIViewController {
     }
     
     @IBAction func enter(_ sender: Any) {
-        self.performSegue(withIdentifier: "showpf", sender: self)
+        self.performSegue(withIdentifier: "zipCode", sender: self)
 
     }
     
