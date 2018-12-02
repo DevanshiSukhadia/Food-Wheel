@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4E33EA7253967AC1BD23641D78317AAE"
-               BuildableName = "Pods_Food_Wheel.framework"
-               BlueprintName = "Pods-Food Wheel"
+               BlueprintIdentifier = "5036616F3ABA44E7227EF6F0B86A0445"
+               BuildableName = "leveldb.framework"
+               BlueprintName = "leveldb-library"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4E33EA7253967AC1BD23641D78317AAE"
-            BuildableName = "Pods_Food_Wheel.framework"
-            BlueprintName = "Pods-Food Wheel"
+            BlueprintIdentifier = "5036616F3ABA44E7227EF6F0B86A0445"
+            BuildableName = "leveldb.framework"
+            BlueprintName = "leveldb-library"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
