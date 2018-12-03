@@ -343,6 +343,9 @@
                                 <rect key="frame" x="20" y="228" width="137" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Philz"/>
+                                <connections>
+                                    <segue destination="w0J-Ct-JlZ" kind="show" id="2GD-jP-bLk"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x0w-iP-paa">
                                 <rect key="frame" x="159" y="170" width="64" height="62"/>
@@ -356,6 +359,9 @@
                                 <rect key="frame" x="245" y="250" width="131" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Peets"/>
+                                <connections>
+                                    <segue destination="w0J-Ct-JlZ" kind="show" id="68u-Zn-7DO"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vSb-Xb-L4n">
                                 <rect key="frame" x="166" y="342" width="51" height="52"/>
@@ -403,6 +409,7 @@
                                 <rect key="frame" x="0.0" y="67" width="414" height="649"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.91143965719999998" green="0.63696044679999997" blue="0.68436455730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.99989169836044312" green="1" blue="0.99988096952438354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -438,21 +445,33 @@
                                 <rect key="frame" x="151" y="98" width="122" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Italian-1"/>
+                                <connections>
+                                    <segue destination="XHw-b0-Y5r" kind="show" id="B29-mQ-KIY"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f4J-zg-nsf">
                                 <rect key="frame" x="257" y="179" width="122" height="81"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="japanese-1"/>
+                                <connections>
+                                    <segue destination="XHw-b0-Y5r" kind="show" id="l2M-ga-ctf"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tlL-37-7SX">
                                 <rect key="frame" x="243" y="282" width="98" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="mexican-1"/>
+                                <connections>
+                                    <segue destination="XHw-b0-Y5r" kind="show" id="Oi6-9x-njO"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="luk-uQ-HjY">
                                 <rect key="frame" x="51" y="170" width="104" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="Indian-1"/>
+                                <connections>
+                                    <segue destination="XHw-b0-Y5r" kind="show" id="wZc-gu-Woz"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zwc-aY-l6z">
                                 <rect key="frame" x="172" y="411" width="30" height="30"/>
@@ -587,6 +606,8 @@
         <image name="mexican-1" width="363" height="450"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="l2M-ga-ctf"/>
+        <segue reference="2GD-jP-bLk"/>
         <segue reference="KAk-ft-Rij"/>
         <segue reference="HcU-Wy-zjv"/>
         <segue reference="sew-Q1-P0r"/>
