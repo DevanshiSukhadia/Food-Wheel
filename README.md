@@ -1,10 +1,12 @@
 # Food-Wheel
 IOS Project 
 
+You can run this project in: 
 Xcode 10.1
 Version 1.0
 Deployment Target 11.2
 Swift 4
+
 
 Contributers: Ayesha Khan, Devanshi Suhkadia, Nishtha Patel
 
