@@ -8,7 +8,7 @@ Deployment Target 11.2
 Swift 4
 
 
-Contributers: Ayesha Khan, Devanshi Suhkadia, Nishtha Patel
+Contributers: Ayesha Khan, Devanshi Sukhadia, Nishtha Patel
 
 ## Video Walkthrough 
 
